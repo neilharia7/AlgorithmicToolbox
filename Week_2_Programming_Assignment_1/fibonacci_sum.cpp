@@ -3,7 +3,7 @@ using namespace std;
 #define long long long
 int main(){
     long n, ans = 0;
-    int arr[100],sum = 1;
+    int arr[60],sum = 1;
     cin>>n;
     arr[0] = 0;arr[1] = 1;
     if(n<=1)
