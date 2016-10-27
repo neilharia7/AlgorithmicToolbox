@@ -23,4 +23,5 @@ int main(){
 	}
 	unsigned long ans = Max_Pair_Product(v);
 	cout<<ans<<endl;
+	return 0;
 }
