@@ -19,4 +19,5 @@ int main(){
 	M[0]=M[1]=1;
 	cin>>n>>mod;
 	cout<<(n==0 ? 0 : fibo(n-1,mod))<<endl;
+	return 0;
 }
