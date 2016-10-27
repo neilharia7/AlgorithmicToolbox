@@ -12,9 +12,8 @@ int main(){
         for(int i = 2; i < 60; i++){
             arr[i] = (arr[i-1] + arr[i-2])%10;
             sum += arr[i];
-        }
-        //Period occurs (n / 60) number of times
-        ans += (((n/60)*(sum % 10)))%10;
+        }  // Since period occurs every (n / 60) no. of times
+        ans += (((n / 60)*(sum % 10)))%10; 
         if(((n % 60) == 0)||((n % 60) == 1)){
             ans +=n % 60;
         }
